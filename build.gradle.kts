@@ -5,3 +5,7 @@ plugins {
     alias(libs.plugins.kotlinAndroid).apply(false)
     alias(libs.plugins.kotlinMultiplatform).apply(false)
 }
+repositories {
+    google()
+    mavenCentral()
+}
